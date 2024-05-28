@@ -1,1 +1,3 @@
 # Home_Sales
+
+This assignment tests variaous methods of storing and querying data using apache spark via pyspark. Different methods were used, such as caching tables and partitioning data, to compare loading times of queries. As part of the partitioning, data was formatted using parquet, which allowed data to be manually partitioned by a selected column. This allows for a potential of faster loading times. Although thedata in this notebook is small, the differences in time add up when these principles are applied to massively large datasets ("big" data).
